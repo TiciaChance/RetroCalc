@@ -14,6 +14,7 @@
 		115DDB151DAAB22F00D870EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115DDB131DAAB22F00D870EA /* LaunchScreen.storyboard */; };
 		115DDB201DAAB23000D870EA /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DDB1F1DAAB23000D870EA /* RetroCalculatorTests.swift */; };
 		115DDB2B1DAAB23000D870EA /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DDB2A1DAAB23000D870EA /* RetroCalculatorUITests.swift */; };
+		115DDB391DAACAB600D870EA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 115DDB381DAACAB600D870EA /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		115DDB261DAAB23000D870EA /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115DDB2A1DAAB23000D870EA /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		115DDB2C1DAAB23000D870EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115DDB381DAACAB600D870EA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				115DDB111DAAB22F00D870EA /* Assets.xcassets */,
 				115DDB131DAAB22F00D870EA /* LaunchScreen.storyboard */,
 				115DDB161DAAB22F00D870EA /* Info.plist */,
+				115DDB381DAACAB600D870EA /* btn.wav */,
 			);
 			path = RetroCalculator;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				115DDB151DAAB22F00D870EA /* LaunchScreen.storyboard in Resources */,
 				115DDB121DAAB22F00D870EA /* Assets.xcassets in Resources */,
 				115DDB101DAAB22F00D870EA /* Main.storyboard in Resources */,
+				115DDB391DAACAB600D870EA /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
