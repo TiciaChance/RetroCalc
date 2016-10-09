@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					115DDB061DAAB22E00D870EA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TDFXWLD7DJ;
 						ProvisioningStyle = Automatic;
 					};
 					115DDB1A1DAAB23000D870EA = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDFXWLD7DJ;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.RetroCalculator;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TDFXWLD7DJ;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.electricchance.RetroCalculator;
