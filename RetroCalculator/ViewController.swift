@@ -98,6 +98,8 @@ class ViewController: UIViewController {
     
     func processOperation(operation: Operation) {
         
+        buttonSound.play()
+        
         if currentOperation != Operation.empty {
             
             // a check in case user selects an operator, but then selects another operator without first entering a # first
