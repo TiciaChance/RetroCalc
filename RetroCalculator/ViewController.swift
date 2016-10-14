@@ -28,7 +28,21 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
+    }
+    
+    @IBAction func numberPressed(sender: UIButton) {
+        
+        playSound()
         
         
+    }
+    
+    func playSound() {
+        
+        if buttonSound.isPlaying {
+            buttonSound.stop()
+        }
+        
+        buttonSound.play()
     }
 }
