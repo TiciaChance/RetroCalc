@@ -107,14 +107,14 @@ class ViewController: UIViewController {
                 runningNum = ""
                 
                 if currentOperation == Operation.Multiply {
-                    result = "\(Double(leftValueString)) * \(Double(rightValueString))"
+                    result = "\(Double(leftValueString)! * Double(rightValueString)!)"
                 } else if currentOperation == Operation.Divide {
-                    result = "\(Double(leftValueString)) / \(Double(rightValueString))"
+                    result = "\(Double(leftValueString)! / Double(rightValueString)!)"
                     
                 } else if currentOperation == Operation.Subtract {
-                    result = "\(Double(leftValueString)) - \(Double(rightValueString))"
+                    result = "\(Double(leftValueString)! - Double(rightValueString)!)"
                 } else if currentOperation == Operation.Add {
-                    result = "\(Double(leftValueString)) + \(Double(rightValueString))"
+                    result = "\(Double(leftValueString)! + Double(rightValueString)!)"
                     
                 }
                 
