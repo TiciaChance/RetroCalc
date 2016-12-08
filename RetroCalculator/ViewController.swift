@@ -48,6 +48,13 @@ class ViewController: UIViewController {
         
     }
     
+    
+    @IBAction func clearButtonTapped(_ sender: Any) {
+        
+            processOperation(operation: .empty)
+            calcLabel.text = ""
+    }
+    
     @IBAction func numberPressed(sender: UIButton) {
         
         playSound()
@@ -63,25 +70,25 @@ class ViewController: UIViewController {
     @IBAction func divideButtonTapped(_ sender: AnyObject) {
         processOperation(operation: .Divide)
     }
- 
+    
     @IBAction func multiplyButtonTapped(_ sender: AnyObject) {
         processOperation(operation: .Multiply)
-
+        
     }
     
     @IBAction func subtractButtonTapped(_ sender: AnyObject) {
         processOperation(operation: .Subtract)
-
+        
     }
     
     @IBAction func additionButtonTapped(_ sender: AnyObject) {
         processOperation(operation: .Add)
-
+        
     }
     
     @IBAction func equalButtonTapped(_ sender: AnyObject) {
         processOperation(operation: currentOperation)
-
+        
     }
     
     
@@ -103,6 +110,7 @@ class ViewController: UIViewController {
         if currentOperation != Operation.empty {
             
             // a check in case user selects an operator, but then selects another operator without first entering a # first
+            
             if !runningNum.isEmpty {
                 
                 rightValueString = runningNum
@@ -110,11 +118,13 @@ class ViewController: UIViewController {
                 
                 if currentOperation == Operation.Multiply {
                     result = "\(Double(leftValueString)! * Double(rightValueString)!)"
+                    
                 } else if currentOperation == Operation.Divide {
                     result = "\(Double(leftValueString)! / Double(rightValueString)!)"
                     
                 } else if currentOperation == Operation.Subtract {
                     result = "\(Double(leftValueString)! - Double(rightValueString)!)"
+                    
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValueString)! + Double(rightValueString)!)"
                     
@@ -123,9 +133,10 @@ class ViewController: UIViewController {
                 leftValueString = result
                 calcLabel.text = result
             }
+            
             currentOperation = operation
         } else {
-           
+            
             // if it is the first time the operation has been pressed
             leftValueString = runningNum
             runningNum = ""

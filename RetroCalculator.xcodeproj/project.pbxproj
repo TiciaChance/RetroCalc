@@ -15,6 +15,7 @@
 		115DDB201DAAB23000D870EA /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DDB1F1DAAB23000D870EA /* RetroCalculatorTests.swift */; };
 		115DDB2B1DAAB23000D870EA /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DDB2A1DAAB23000D870EA /* RetroCalculatorUITests.swift */; };
 		115DDB391DAACAB600D870EA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 115DDB381DAACAB600D870EA /* btn.wav */; };
+		11C89D641DF98D0C00504D0F /* retro calc launch screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C89D631DF98D0C00504D0F /* retro calc launch screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		115DDB2A1DAAB23000D870EA /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		115DDB2C1DAAB23000D870EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115DDB381DAACAB600D870EA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		11C89D631DF98D0C00504D0F /* retro calc launch screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "retro calc launch screen.png"; path = "../../../../../Downloads/retro calc launch screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				115DDB0E1DAAB22F00D870EA /* Main.storyboard */,
 				115DDB111DAAB22F00D870EA /* Assets.xcassets */,
 				115DDB131DAAB22F00D870EA /* LaunchScreen.storyboard */,
+				11C89D631DF98D0C00504D0F /* retro calc launch screen.png */,
 				115DDB161DAAB22F00D870EA /* Info.plist */,
 				115DDB381DAACAB600D870EA /* btn.wav */,
 			);
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C89D641DF98D0C00504D0F /* retro calc launch screen.png in Resources */,
 				115DDB151DAAB22F00D870EA /* LaunchScreen.storyboard in Resources */,
 				115DDB121DAAB22F00D870EA /* Assets.xcassets in Resources */,
 				115DDB101DAAB22F00D870EA /* Main.storyboard in Resources */,
@@ -512,6 +516,7 @@
 				115DDB311DAAB23000D870EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115DDB321DAAB23000D870EA /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				115DDB341DAAB23000D870EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115DDB351DAAB23000D870EA /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				115DDB371DAAB23000D870EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
